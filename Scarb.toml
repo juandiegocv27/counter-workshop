@@ -9,6 +9,7 @@ edition = "2023_01"
 starknet = ">=2.6.3"
 
 [[target.starknet-contract]]
+sierra = true
 casm = true
 
 [dev-dependencies]
